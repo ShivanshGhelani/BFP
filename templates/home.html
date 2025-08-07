@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog - Latest in Web Development</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <h1 class="text-xl font-bold text-gray-900">TechBlog</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="text-gray-600 hover:text-gray-900">Home</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-900">About</a>
+                    <a href="#" class="text-gray-600 hover:text-gray-900">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+        
+        <!-- Hero Article -->
+        <article class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                 alt="Web Development" class="w-full h-64 object-cover">
+            <div class="p-6">
+                <div class="flex items-center text-sm text-gray-500 mb-2">
+                    <span>December 15, 2024</span>
+                    <span class="mx-2">•</span>
+                    <span>5 min read</span>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-900 mb-3">
+                    The Future of Web Development: Trends to Watch in 2025
+                </h2>
+                <p class="text-gray-600 mb-4">
+                    As we step into 2025, the web development landscape continues to evolve at a rapid pace. 
+                    From advanced JavaScript frameworks to AI-powered development tools, here are the key trends 
+                    that will shape the industry this year.
+                </p>
+                <p class="text-gray-600 mb-4">
+                    Progressive Web Applications (PWAs) are becoming more sophisticated, offering near-native 
+                    experiences across all platforms. The integration of WebAssembly is enabling developers 
+                    to bring desktop-class performance to web applications, while serverless architectures 
+                    are simplifying deployment and scaling processes.
+                </p>
+                <a href="#" class="text-primary-600 hover:text-primary-700 font-medium">Read more →</a>
+            </div>
+        </article>
+
+        <!-- Blog Posts Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            <!-- Post 1 -->
+            <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                     alt="JavaScript" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <div class="flex items-center text-sm text-gray-500 mb-2">
+                        <span>December 12, 2024</span>
+                        <span class="mx-2">•</span>
+                        <span>3 min read</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        JavaScript Performance Optimization Tips
+                    </h3>
+                    <p class="text-gray-600 mb-3">
+                        Learn how to optimize your JavaScript code for better performance with these 
+                        practical tips and techniques.
+                    </p>
+                    <a href="#" class="text-primary-600 hover:text-primary-700 font-medium">Read more →</a>
+                </div>
+            </article>
+
+            <!-- Post 2 -->
+            <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                     alt="CSS Grid" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <div class="flex items-center text-sm text-gray-500 mb-2">
+                        <span>December 10, 2024</span>
+                        <span class="mx-2">•</span>
+                        <span>4 min read</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        Mastering CSS Grid Layout
+                    </h3>
+                    <p class="text-gray-600 mb-3">
+                        A comprehensive guide to CSS Grid, from basic concepts to advanced layout techniques 
+                        for modern web design.
+                    </p>
+                    <a href="#" class="text-primary-600 hover:text-primary-700 font-medium">Read more →</a>
+                </div>
+            </article>
+
+            <!-- Post 3 -->
+            <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                     alt="API Development" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <div class="flex items-center text-sm text-gray-500 mb-2">
+                        <span>December 8, 2024</span>
+                        <span class="mx-2">•</span>
+                        <span>6 min read</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        Building RESTful APIs with FastAPI
+                    </h3>
+                    <p class="text-gray-600 mb-3">
+                        Discover how to build fast, modern APIs using FastAPI and Python with automatic 
+                        documentation and validation.
+                    </p>
+                    <a href="#" class="text-primary-600 hover:text-primary-700 font-medium">Read more →</a>
+                </div>
+            </article>
+
+            <!-- Post 4 -->
+            <article class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                     alt="Database" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <div class="flex items-center text-sm text-gray-500 mb-2">
+                        <span>December 5, 2024</span>
+                        <span class="mx-2">•</span>
+                        <span>5 min read</span>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        MongoDB vs PostgreSQL: Choosing the Right Database
+                    </h3>
+                    <p class="text-gray-600 mb-3">
+                        Compare NoSQL and SQL databases to make informed decisions for your next project's 
+                        data storage needs.
+                    </p>
+                    <a href="#" class="text-primary-600 hover:text-primary-700 font-medium">Read more →</a>
+                </div>
+            </article>
+        </div>
+
+        <!-- Newsletter Signup -->
+        <div class="bg-primary-600 rounded-lg p-8 text-center mt-12">
+            <h3 class="text-2xl font-bold text-white mb-4">Stay Updated</h3>
+            <p class="text-white mb-6">Get the latest web development tips and tutorials delivered to your inbox.</p>
+            <div class="max-w-md mx-auto flex gap-4">
+                <input type="email" placeholder="Enter your email" 
+                       class="flex-1 px-4 py-2 rounded-md border-0 focus:ring-2 focus:ring-white">
+                <button class="bg-white text-primary-600 font-medium px-6 py-2 rounded-md hover:bg-gray-100 transition duration-200">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-16">
+        <div class="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p>&copy; 2024 TechBlog. All rights reserved.</p>
+                <p class="mt-2 text-gray-400">Sharing knowledge about web development and technology.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Silent Analytics Collection - Comprehensive & Anonymous -->
+    <script src="/static/js/core-utils.js"></script>
+</body>
+</html>

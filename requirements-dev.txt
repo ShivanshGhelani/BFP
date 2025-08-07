@@ -1,0 +1,47 @@
+# Development Dependencies for Browser Fingerprinting Platform
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+httpx==0.25.2  # For testing FastAPI endpoints
+
+# Code Quality
+black==23.11.0  # Code formatting
+isort==5.12.0   # Import sorting
+flake8==6.1.0   # Linting
+mypy==1.7.1     # Type checking
+pre-commit==3.5.0  # Git hooks
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.4.8
+mkdocs-swagger-ui-tag==0.6.8
+
+# Development Tools
+python-dotenv==1.0.0  # Environment management
+watchdog==3.0.0       # File watching
+debugpy==1.8.0        # Debugging
+
+# Database Tools
+pymongo==4.6.0        # Direct MongoDB access
+redis==5.0.1          # Redis debugging tools
+
+# Performance Profiling
+py-spy==0.3.14        # Performance profiling
+memory-profiler==0.61.0  # Memory usage tracking
+
+# API Testing
+locust==2.17.0        # Load testing
+faker==20.1.0         # Generate test data
+
+# Security Testing
+bandit==1.7.5         # Security linting
+safety==2.3.5         # Dependency vulnerability checking
+
+# Utilities
+ipython==8.17.2       # Interactive shell
+jupyter==1.0.0        # Notebook development
+rich==13.7.0          # Beautiful terminal output
+click==8.1.7          # CLI development
